@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.todo_box{
+    max-width: 400;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgb(72, 72, 73);
+    background-color: #5f63d6;
+    border-radius: 9px;
+    }
+    .todo_button{
+        border: 2px;
+        margin: 0 auto;
+        background-color: #05097e !important;
+        border-radius: 4px;
+    }

@@ -1,0 +1,70 @@
+#todo-box{
+margin: 0 auto;
+padding: 20px;
+box-shadow: 0 2px 5px rgb(72, 72, 73);
+background-color: #5f63d6;
+}
+#item-box{
+    list-style-type: none;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgb(72, 72, 73);
+    background-color: #bbbbbb;
+    border-radius: 8px;
+    margin-bottom: 20px;
+ }
+#delete-button{
+    float: right;
+    padding: 10px 20px;
+    border: 2px;
+    margin: auto auto;
+    background-color: #cf3028;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-top: -8px;
+}
+#add-button:active {
+    background-color:yellowgreen;
+}
+#delete-button:active {
+    background-color:rgb(239, 86, 111);
+}
+#delete-all-button{
+    padding: 10px 20px;
+    border: 2px;
+    margin: 0 auto;
+    background-color: #cf3028;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 8px;
+}
+#delete-all-button:active {
+    background-color:rgb(239, 86, 111);
+}
+#add-button{
+    padding: 10px 20px;
+    border: 2px;
+    margin: 0 auto;
+    background-color: #7f8f1a;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 8px;
+}
+#task-input{
+    padding-top: 10px;
+    padding-right: 80px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border: 2px;
+    margin: 0 0;
+    text-align: left;
+    background-color: #dcdded;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 8px;
+}
