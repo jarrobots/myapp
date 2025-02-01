@@ -48,6 +48,8 @@ export class AppComponent implements OnInit {
   }
   toggleCompleted(index:number):void{
     this.todoList[index].completed = !this.todoList[index].completed;
+    this.todosSubject.next(this.todoList);
+    sessionStorage.setItem('todoList', JSON.stringify(this.todoList));
   }
   deleteTask(id:number):void{
     this.todoList = this.todoList.filter(item => item.id !== id);
